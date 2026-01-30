@@ -5,7 +5,7 @@ info:
     API de dados cadastrais de clientes do Open Finance Brasil – Fase 2.
     API que retorna os dados cadastrais de clientes e de seus representantes, incluindo dados de identificação, de qualificação financeira, informações sobre representantes cadastrados e sobre o relacionamento financeiro do cliente com a instituição transmissora dos dados.\
     Possui segregação entre pessoa natural e pessoa jurídica.\
-    Requer consentimento do cliente para todos os `endpoints`.
+    Requer consentimento do cliente para todos os `endpoints` .
 
     # Orientações
     A `Role`  do diretório de participantes relacionada à presente API é a `DADOS`.\
@@ -2351,4 +2351,5 @@ components:
         application/json; charset=utf-8:
           schema:
             $ref: '#/components/schemas/ResponseError'
+
 
